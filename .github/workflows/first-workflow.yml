@@ -1,0 +1,29 @@
+﻿name: First GitHub Workflow
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  STUDENT_NAME: Arthur
+  COURSE: Forage
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download repository files
+        uses: actions/checkout@v6
+
+      - name: Display variables
+        run: |
+          echo "Hello, $STUDENT_NAME!"
+          echo "Training platform: $COURSE"
+          echo "Repository: $GITHUB_REPOSITORY"
+
+      - name: Confirm execution
+        run: echo "My first GitHub Actions workflow ran successfully!"
