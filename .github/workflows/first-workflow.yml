@@ -27,3 +27,5 @@ jobs:
 
       - name: Confirm execution
         run: echo "My first GitHub Actions workflow ran successfully!"
+
+        Simulated Job
