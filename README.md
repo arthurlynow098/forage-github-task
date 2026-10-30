@@ -4,7 +4,7 @@
 
 <p align="center">Exercício de integração contínua e automação de workflows com GitHub Actions.</p>
 
-<p align="center"><img src="assets/docs/tags.svg" alt="GitHub Actions · CI · Automação" width="72%"></p>
+<p align="center"><img src="assets/docs/tags.svg" alt="GitHub Actions · CI · Automação" width="100%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-explorar">Como explorar</a></p>
 
@@ -16,11 +16,12 @@
 
 ![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
 
-| Área | O que você encontra | Acesso direto |
-|---|---|---|
-| **Workflow** | Definição do pipeline do exercício. | [Abrir workflow →](.github/workflows/first-workflow.yml) |
-| **Automação** | Local dos workflows versionados. | [Abrir automação →](.github/workflows) |
-| **Uso** | Como observar e executar o workflow. | [Abrir uso →](README.md) |
+<table width="100%">
+<tr><th align="left">Área</th><th align="left">O que você encontra</th><th align="left">Acesso direto</th></tr>
+<tr><td><strong>Workflow</strong></td><td>Definição do pipeline do exercício.</td><td><a href=".github/workflows/first-workflow.yml">Abrir workflow →</a></td></tr>
+<tr><td><strong>Automação</strong></td><td>Local dos workflows versionados.</td><td><a href=".github/workflows">Abrir automação →</a></td></tr>
+<tr><td><strong>Uso</strong></td><td>Como observar e executar o workflow.</td><td><a href="README.md">Abrir uso →</a></td></tr>
+</table>
 
 <a id="visão-geral"></a>
 
