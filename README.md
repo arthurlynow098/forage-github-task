@@ -4,21 +4,33 @@
 
 <p align="center">Exercício de integração contínua e automação de workflows com GitHub Actions.</p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/GitHub%20Actions-C52E36?style=flat-square" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/CI-24272E?style=flat-square" alt="CI">
-  <img src="https://img.shields.io/badge/Automa%C3%A7%C3%A3o-24272E?style=flat-square" alt="Automação">
-</p>
+<p align="center"><img src="assets/docs/tags.svg" alt="GitHub Actions · CI · Automação" width="72%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-explorar">Como explorar</a></p>
 
 ---
 
-## Visão geral
+<a id="explore-o-projeto"></a>
+
+![Explore o projeto](assets/docs/section-01.svg)
+
+![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
+
+| Área | O que você encontra | Acesso direto |
+|---|---|---|
+| **Workflow** | Definição do pipeline do exercício. | [Abrir workflow →](.github/workflows/first-workflow.yml) |
+| **Automação** | Local dos workflows versionados. | [Abrir automação →](.github/workflows) |
+| **Uso** | Como observar e executar o workflow. | [Abrir uso →](README.md) |
+
+<a id="visão-geral"></a>
+
+![Visão geral](assets/docs/section-02.svg)
 
 O repositório define um workflow em .github/workflows/first-workflow.yml que provisiona um runner isolado em nuvem e executa etapas sequenciais a partir de gatilhos do GitHub, servindo como base estrutural para esteiras de testes, linting e deploy.
 
-## Recursos
+<a id="recursos"></a>
+
+![Recursos](assets/docs/section-03.svg)
 
 | Recurso | Como funciona |
 |---|---|
@@ -27,7 +39,9 @@ O repositório define um workflow em .github/workflows/first-workflow.yml que pr
 | Execução em etapas (Steps) | Encadeamento declarativo de ações oficiais (uses) e comandos de shell (run). |
 | Rastreabilidade de logs | Cada etapa registra saída detalhada na aba *Actions* do GitHub para auditoria e diagnóstico. |
 
-## Tecnologias
+<a id="tecnologias"></a>
+
+![Tecnologias](assets/docs/section-04.svg)
 
 - **GitHub Actions** como motor de orquestração de pipelines CI/CD;
 - **YAML (.github/workflows/first-workflow.yml)** para definição declarativa de gatilhos, jobs e steps.
@@ -55,13 +69,15 @@ forage-github-task/
 │   └── workflows/
 │       └── first-workflow.yml      Definição declarativa do pipeline GitHub Actions
 ├── assets/
-│   └── project-animal.png          Emblema do projeto
+│   └── banner-v2.png               Banner do projeto
 └── README.md
 ```
 
 </details>
 
-## Como explorar
+<a id="como-explorar"></a>
+
+![Como explorar](assets/docs/section-05.svg)
 
 1. Inspecione o arquivo [.github/workflows/first-workflow.yml](.github/workflows/first-workflow.yml) para verificar os gatilhos (on:), o ambiente (runs-on:) e os passos configurados.
 2. Acesse a aba **Actions** deste repositório no GitHub para visualizar o histórico de execuções e o tempo de cada etapa.
