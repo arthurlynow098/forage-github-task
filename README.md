@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="assets/project-animal.png" alt="Emblema de forage-github-task" width="144" height="144">
+  <img src="assets/banner-v2.png" alt="forage-github-task" width="100%">
 </p>
-
-<h1 align="center">forage-github-task</h1>
 
 <p align="center">Exercício de integração contínua e automação de workflows com GitHub Actions.</p>
 
